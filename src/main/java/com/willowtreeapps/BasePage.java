@@ -56,6 +56,7 @@ public class BasePage {
         return this;
     }
 
+
     public BasePage validateText(String css, String text) {
         return validateText(By.cssSelector(css), text);
     }
